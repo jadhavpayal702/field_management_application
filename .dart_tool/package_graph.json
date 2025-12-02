@@ -1,10 +1,10 @@
 {
   "roots": [
-    "flutter_field_management_app"
+    "flutter_dpr"
   ],
   "packages": [
     {
-      "name": "flutter_field_management_app",
+      "name": "flutter_dpr",
       "version": "0.1.0",
       "dependencies": [
         "flutter",
