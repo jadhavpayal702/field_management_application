@@ -18,7 +18,7 @@ class MainApp extends StatelessWidget {
       providers: [
         Provider(
           create: (context) {
-            return Login(email: '@gmail.com', password: 123456);
+            return Login(email: '@test.com', password: 123456);
           },
         ),
         Provider(
