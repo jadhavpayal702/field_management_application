@@ -111,7 +111,7 @@ class _LoginScreenState extends State<LoginScreen> {
                   if (_emailController.text.trim().isNotEmpty &&
                       _passwordController.text.trim().isNotEmpty) {
                     if (_passwordController.text.length >= 6) {
-                      if (email.endsWith('@gmail.com')) {
+                      if (email.endsWith('@test.com')) {
                         Navigator.of(context).pushReplacement(
                           MaterialPageRoute(builder: (_) => ProjectScreen()),
                         );
