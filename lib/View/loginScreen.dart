@@ -178,7 +178,14 @@ class _LoginScreenState extends State<LoginScreen> {
             ),
 
             TextButton(
-              onPressed: () {},
+              onPressed: () {
+                ScaffoldMessenger.of(context).showSnackBar(
+                          SnackBar(
+                            backgroundColor: Colors.blue,
+                            content: Text("Enter new email and password"),
+                          ),
+                        );
+              },
               child: Text(
                 "Forget Password?",
                 style: TextStyle(
